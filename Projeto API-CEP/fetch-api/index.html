@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="favicon/icons8-casa-50.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="logo" ><h1>Consultando CEP</h1></div>
+        <form>
+          <div class="form-group">
+              <label for="cep"><b>CEP</label>
+              <input type="text" class="form-control" maxlength="9" id="cep">
+              <smals>00000-000</smals>
+          </div>
+          <div class="form-group">
+              <label for="logradouro">Logradouro</label>
+              <input type="text" class="form-control" id="logradouro">
+              <smals>Rua</smals>
+          </div>
+          <div class="form-group">
+              <label for="bairro">Bairro</label>
+              <input type="text" class="form-control" id="bairro">
+              <smals>Bairro</smals>
+          </div>
+          <div class="form-group">
+              <label for="localidade">localidade</label>
+              <input type="text" class="form-control" id="localidade">
+              <smals>Cidade</smals>
+          </div>
+          <div class="form-group">
+              <label for="UF">UF</label>
+              <input type="text" class="form-control" id="uf">
+              <smals>Estado</b></smals>
+          </div>
+
+        </form>
+
+    </div>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
